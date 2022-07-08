@@ -49,8 +49,7 @@ bool Carrinho::salvar_dados(std::map<std::string, Vendas> dados)
 **PASSO 4** - Apresentação dos dados em csv: dos produtos selecionados e do cliente;
 
 ```
-void MainWindow::atualizar_tabela()
-{
+
     void MainWindow::on_botao_proc_clicked()
     {
         ui->tableWidget_2->clearContents();
@@ -98,7 +97,7 @@ void MainWindow::atualizar_tabela()
                    ui->tableWidget_2->setItem(i,1,new QTableWidgetItem(QString::fromStdString(venda.getNome_produto("Alto-falante 12 pol 600wrms"))));
                    ui->tableWidget_2->setItem(i,2,new QTableWidgetItem(QString::fromStdString(venda.setValor(999,99))));
                  }  i++;
-    }
+    
 ```
 
 **PASSO 5** - Realização da compra;
