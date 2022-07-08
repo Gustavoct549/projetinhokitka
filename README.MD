@@ -1,8 +1,4 @@
-@@ -1,6 +1,133 @@
-# Projetinho de exemplo
-# Projetinho 
 
-## Codigos de exemplo 
 
 Funcionamento do programa;
 
